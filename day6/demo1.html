@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer {
+            width: 800px;
+            height: 500px;
+            background: red;
+        }
+
+        #top {
+            width: 800px;
+            height: 200px;
+            background: green;
+        }
+
+        #bottom {
+            width: 800px;
+            height: 300px;
+            background: blue;
+        }
+
+        #inner1 {
+            width: 400px;
+            height: 300px;
+            background: yellow;
+            float: left;
+        }
+
+        #a1 {
+            width: 200px;
+            height: 300px;
+            background: orange;
+            float: left;
+        }
+
+        #a2 {
+            width: 200px;
+            height: 300px;
+            background: rgb(0, 0, 0);
+            float: left;
+        }
+
+        #inner2 {
+            width: 400px;
+            height: 300px;
+            background: pink;
+            float: left;
+        }
+
+        #b1 {
+            width: 400px;
+            height: 100px;
+            background: rgb(131, 27, 222);
+
+        }
+
+        #b2 {
+            width: 400px;
+            height: 100px;
+            background: rgb(0, 255, 47);
+
+        }
+
+        #b3 {
+            width: 400px;
+            height: 100px;
+            background: rgba(172, 97, 13, 0.714);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="top"></div>
+        <div id="bottom">
+            <div id="inner1">
+                <div id="a1"></div>
+                <div id="a2"></div>
+            </div>
+            <div id="inner2">
+                <div id="b1"></div>
+                <div id="b2"></div>
+                <div id="b3"></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

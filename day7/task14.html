@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer {
+            width: 900px;
+            height: 600px;
+            margin: 50px auto;
+            border: 3px double grey;
+
+        }
+
+        .row1 {
+            width: 400px;
+            height: 600px;
+            background: url(../image/working\ 1.webp);
+            background-size: cover;
+            float: left;
+        }
+
+
+
+        .row2 {
+            width: 500px;
+            height: 600px;
+            padding-left: 20px;
+            padding-top: 20px;
+
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .a1 {
+            width: 460px;
+            height: 60px;
+            background: white;
+
+        }
+
+        .b1 {
+            width: 200px;
+            height: 60px;
+            padding-left: 10px;
+            margin: 10px;
+            float: left;
+        }
+
+        .p {
+            width: 180px;
+            height: 20px;
+            border: 2px solid #ebdddd;
+        }
+
+        .a2 {
+            width: 440px;
+            height: 60px;
+            background: white;
+            padding-left: 20px;
+
+        }
+
+        .r1 {
+            width: 120px;
+            height: 30px;
+            padding-top: 15px;
+            box-sizing: border-box;
+            margin: 13px;
+            float: left;
+        }
+
+        .x {
+            width: 410px;
+            height: 30px;
+
+            border: 2px solid #ebdddd;
+        }
+
+        .a3 {
+            width: 260px;
+            height: 60px;
+            margin-top: 30px;
+            margin-left: 180px;
+            background: white;
+
+        }
+
+        .btn {
+            height: 40px;
+            width: 100px;
+            margin-right: 30px;
+            border: none;
+            margin-left: 25px;
+        }
+
+        .btn1 {
+            height: 40px;
+            width: 100px;
+            border: none;
+            background: #fe6507;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="row1"></div>
+        <div class="row2">
+            <div class="a1">
+                <div class="b1">
+                    Name: <br><input type="text" class="p">
+                </div>
+                <div class="b1">
+                    Father Name: <br><input type="text" class="p">
+                </div>
+            </div>
+            <div class="a2">
+                Address: <br>
+                <input type="text" class="x">
+            </div>
+            <div class="a2">
+                <div class="r1"> Gender :</div>
+                <div class="r1"> <input type="radio" name="so"> Male</div>
+                <div class="r1"><input type="radio" name="so"> Female</div>
+            </div>
+            <div class="a2">
+                DOB : <br>
+                <input type="date" class="x">
+            </div>
+            <div class="a2">
+                Pincode : <br>
+                <input type="number" class="x">
+            </div>
+            <div class="a2">
+                Course : <br>
+                <input type="text" class="x">
+            </div>
+            <div class="a2">
+                Email ID : <br>
+                <input type="email" class="x">
+            </div>
+
+            <div class="a3">
+                <input class="btn" type="reset" value="Reset All">
+                <input class="btn1" type="submit" value="Submit Form">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

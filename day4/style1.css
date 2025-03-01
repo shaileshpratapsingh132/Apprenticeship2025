@@ -1,0 +1,13 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+    line-height: 500px;
+    text-shadow: 10px 10px 2px gold;
+    transition: all 2s;
+}
+
+h1:hover {
+    color: blue;
+    text-shadow: -10px -10px 2px pink;
+    transition: color 2s, text-shadow 5s;
+}

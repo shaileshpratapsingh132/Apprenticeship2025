@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer {
+            width: 700px;
+            height: 600px;
+            margin: 50px auto;
+
+        }
+
+        .row1 {
+            width: 400px;
+            height: 600px;
+            background: url(../image/pexels-photo-8062304.webp);
+            background-size: cover;
+            float: left;
+        }
+
+        .row {
+            width: 400px;
+            height: 600px;
+            background: linear-gradient(45deg, rgba(219, 102, 170, 0.8), rgba(117, 77, 140, 0.8));
+
+        }
+
+        .row2 {
+            width: 260px;
+            height: 600px;
+            padding-left: 20px;
+            padding-top: 20px;
+            box-sizing: border-box;
+            float: left;
+
+        }
+
+        .a {
+            width: 260px;
+            height: 20px;
+            border: none;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(102, 174, 219, 0.8);
+        }
+
+        form {
+            color: #acacac;
+        }
+
+        .btn {
+            width: 100px;
+            height: 35px;
+            border: none;
+            color: white;
+            border-radius: 20px;
+            margin-top: 30px;
+            margin-right: 20px;
+            background: linear-gradient(to bottom, #ce79e7, #e057a4);
+        }
+
+        .btn1 {
+            width: 100px;
+            height: 35px;
+            border: none;
+            background: white;
+            border-radius: 20px;
+            margin-top: 30px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="row1">
+            <div class="row"></div>
+        </div>
+        <div class="row2">
+            <h1>Sign Up</h1>
+            <form>
+                Full Name <br>
+                <input class="a" type="text"> <br>
+                Email <br>
+                <input class="a" type="email"> <br>
+                Username <br>
+                <input class="a" type="email"> <br>
+                Password <br>
+                <input class="a" type="password"><br>
+                Repeat Password <br>
+                <input class="a" type="password"><br>
+                <input type="checkbox"> I agree to the Terms of User <br>
+                <input class="btn" type="submit" value="Sing Up">
+                <input class="btn1" type="submit" value="Sing in &rarr;">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

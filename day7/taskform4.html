@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #ff564f;
+        }
+
+        .outer {
+            width: 900px;
+            height: 600px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0px 2px 10px 8px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .a {
+            width: 400px;
+            height: 600px;
+            float: left;
+        }
+
+        img {
+            border-radius: 5px 0px 0px 5px;
+        }
+
+        .for {
+            width: 500px;
+            height: 600px;
+            float: left;
+        }
+
+        form {
+            margin-left: 90px;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .b {
+            width: 350px;
+            height: 45px;
+            margin-top: 25px;
+            border: none;
+            background: transparent;
+            border-bottom: 2px solid whitesmoke;
+            font-size: 15px;
+        }
+
+        .c {
+            width: 200px;
+            height: 45px;
+            margin-top: 25px;
+            border: none;
+
+            background: transparent;
+            border-bottom: 2px solid whitesmoke;
+            font-size: 15px;
+        }
+
+        .btn {
+            width: 100px;
+            height: 45px;
+            margin-top: 40px;
+            border: none;
+            color: white;
+            background: #ff564f;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="a"><img src="/image/fruit.jpeg" height="600px" width="400px" style="background-size: cover;"></div>
+        <div class="for">
+            <h1>REGISTRATION INFO</h1>
+            <form>
+                <input type="text" placeholder="Name" class="b"><br>
+                <input type="date" class="c"> <select class="c">
+                    <option>Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+
+                </select><br>
+                <input type="text" placeholder="Class" class="b"><br>
+                <input type="number" placeholder="Registration Code" class="b"> <br>
+                <input type="submit" value="Search" class="btn">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

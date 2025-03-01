@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #eeeeee;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .outer {
+            height: 530px;
+            width: 1000px;
+            background: white;
+            margin: 20px auto;
+        }
+
+        .img {
+            height: 100%;
+            width: 200px;
+            z-index: 1;
+            background: url(../image/man1.webp) no-repeat;
+            background-size: cover;
+            float: left;
+        }
+
+        .inner {
+            background: linear-gradient(rgba(0, 63, 0, 0.642), rgba(27, 0, 125, 0.756));
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding-top: 200px;
+            box-sizing: border-box;
+
+        }
+
+        .inner h4 {
+            margin: 0;
+        }
+
+        .inner p {
+            margin: 0;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .form {
+            height: 100%;
+            width: 800px;
+            float: left;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        .field {
+            height: 50px;
+            width: 45.8%;
+            font-size: 12px;
+            font-weight: bold;
+            float: left;
+            margin-right: 30px;
+            margin-top: 15px;
+        }
+
+        .inp {
+            border: 1px solid #eeeeee;
+            height: 30px;
+            width: 100%;
+            margin-top: 5px;
+            border-radius: 2px;
+            padding-left: 10px;
+            box-sizing: border-box;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #319d5f;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .btn1 {
+            background: white;
+            color: #939292;
+            border: 1px solid #939292;
+            box-sizing: border-box;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="img">
+            <div class="inner">
+                <h4>REGISTER NOW</h4>
+                <p>While seats are available!</p>
+            </div>
+        </div>
+        <form class="form">
+            <div class="field">
+                <label>
+                    FIRST NAME * <br>
+                    <input type="text" class="inp">
+                </label>
+            </div>
+            <div class="field">
+                <label>
+                    MEAL PREFERENCE * <br>
+                    <select class="inp">
+                        <option>Vegetarian</option>
+                    </select>
+                </label>
+            </div>
+            <div class="field">
+                <label>
+                    LAST NAME * <br>
+                    <input type="text" class="inp">
+                </label>
+            </div>
+            <div class="field">
+                <label>
+                    PAYMENT MODE * <br>
+                    <div style="margin-top: 10px; padding: 0;">
+                        <input type="radio" checked name="p"> Cash
+                        <input type="radio" name="p"> Check
+                        <input type="radio" name="p"> Demand Draf
+                    </div>
+
+                </label>
+            </div>
+            <div class="field">
+                <label>
+                    COMPANY * <br>
+                    <input type="text" class="inp">
+                </label>
+            </div>
+            <div class="field">
+                <label>
+                    DO/ CHEQUE NO.<br>
+                    <input type="text" class="inp">
+                </label>
+            </div>
+            <div class="field">
+                <label>
+                    EMAIL * <br>
+                    <input type="email" class="inp">
+                </label>
+            </div>
+            <div class="field">
+                <label>
+                    DRAWN ON (BANK NAME)<br>
+                    <input type="text" class="inp">
+                </label>
+            </div>
+            <div class="field">
+                <label>
+                    PHONE NUMBER * <br>
+                    <input type="text" class="inp">
+                </label>
+            </div>
+            <div class="field">
+                <label>
+                    PAYABLE AT<br>
+                    <input type="text" class="inp">
+                </label>
+            </div>
+            <div class="field" style="width: 96%;">
+                DONATE US <br>
+                <input type="range" class="inp">
+            </div>
+            <button class="btn" style="margin-left: 490px;">SUBMIT</button>
+            <button class="btn1 btn">RESET</button>
+        </form>
+    </div>
+</body>
+
+</html>

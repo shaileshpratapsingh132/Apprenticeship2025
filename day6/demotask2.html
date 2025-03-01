@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer {
+            width: 800px;
+            height: 500px;
+            background: yellow;
+        }
+
+        .row1 {
+            width: 200px;
+            height: 500px;
+            background: red;
+            float: left;
+        }
+
+        .a1 {
+            width: 200px;
+            height: 400px;
+            background: blue;
+        }
+
+        .a2 {
+            width: 200px;
+            height: 100px;
+            background: rgb(214, 211, 7);
+        }
+
+        .row2 {
+            width: 400px;
+            height: 500px;
+            background: green;
+            float: left;
+        }
+
+        .b1 {
+            width: 400px;
+            height: 250px;
+            background: rgb(0, 255, 21);
+        }
+
+        .b1x1 {
+            width: 300px;
+            height: 250px;
+            background: pink;
+            float: left;
+        }
+
+        .b1x2 {
+            width: 100px;
+            height: 250px;
+            background: rgb(0, 0, 0);
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div class="row1">
+            <div class="a1"></div>
+            <div class="a2"></div>
+        </div>
+
+        <div class="row2">
+            <div class="b1">
+                <div class="b1x1"></div>
+                <div class="b1x2"></div>
+            </div>
+            <div class="b1">
+                <div class="b1x2"></div>
+                <div class="b1x1"></div>
+            </div>
+        </div>
+
+
+        <div class="row1">
+            <div class="a2"></div>
+            <div class="a1"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>

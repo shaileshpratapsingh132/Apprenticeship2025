@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: url(../image/Mountain.webp) no-repeat;
+            background-size: cover;
+        }
+
+        .outer {
+            width: 1510px;
+            height: 800px;
+            border: 1px solid red;
+            background: rgba(200, 17, 53, 0.8);
+        }
+
+        .row {
+            width: 500px;
+            height: 500px;
+            background: white;
+            margin: 100px auto;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        form {
+            color: #bcb0b0;
+        }
+
+        .a1 {
+            width: 420px;
+            height: 35px;
+            border: none;
+            border-bottom: 1px solid #b8a7a7;
+
+        }
+
+        .a2 {
+            width: 420px;
+            height: 80px;
+            border: none;
+            border-bottom: 1px solid #b8a7a7;
+            resize: none;
+
+        }
+
+        .btn {
+            width: 200px;
+            height: 45px;
+            margin-left: 100px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            background: linear-gradient(45deg, #e02c8f, #ed5144);
+            font-size: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="row">
+            <h2>Contact Us</h2>
+            <form>
+                NAME <br>
+                <input class="a1" type="text" value="Kevin Nguyen"> <br><br><br>
+                EMAIL <br>
+                <input class="a1" type="email"> <br><br><br>
+                MESSAGE <br>
+                <textarea class="a2"> </textarea> <br><br><br>
+                <input type="submit" value="Send Your Message" class="btn">
+            </form>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer {
+            width: 800px;
+            height: 600px;
+        }
+
+        .col1 {
+            width: 100px;
+            height: 600px;
+            float: left;
+            background: yellow;
+        }
+
+        .row1 {
+            width: 100px;
+            height: 300px;
+            background: rgb(98, 0, 255);
+        }
+
+        .row1a {
+            width: 50px;
+            height: 300px;
+            background: rgb(198, 196, 200);
+            float: left;
+        }
+
+        .row1b {
+            width: 50px;
+            height: 300px;
+            background: rgb(124, 24, 224);
+            float: left;
+        }
+
+        .col2 {
+            width: 600px;
+            height: 600px;
+            float: left;
+            background: black;
+        }
+
+        .a1 {
+            width: 600px;
+            height: 100px;
+            background: yellow;
+        }
+
+        .a1a {
+            width: 300px;
+            height: 100px;
+            background: pink;
+            float: left;
+        }
+
+        .a1b {
+            width: 300px;
+            height: 100px;
+            background: black;
+            float: left;
+        }
+
+        .a2 {
+            width: 600px;
+            height: 400px;
+            background: red;
+        }
+
+        .a2b {
+            width: 100px;
+            height: 400px;
+            background: yellowgreen;
+            float: left;
+        }
+
+        .a3b {
+            width: 400px;
+            height: 400px;
+            float: left;
+        }
+
+        .c1 {
+            width: 400px;
+            height: 200px;
+            background: yellow;
+        }
+
+        .c1a {
+            width: 100px;
+            height: 200px;
+            background: blueviolet;
+            float: left;
+        }
+
+        .c1b {
+            width: 200px;
+            height: 200px;
+            background: red;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div class="col1">
+            <div class="row1">
+                <div class="row1a"></div>
+                <div class="row1b"></div>
+            </div>
+            <div class="row1">
+                <div class="row1b"></div>
+                <div class="row1a"></div>
+            </div>
+        </div>
+
+
+        <div class="col2">
+            <div class="a1">
+                <div class="a1a"></div>
+                <div class="a1b"></div>
+            </div>
+
+            <div class="a2">
+                <div class="a2b"></div>
+                <div class="a3b">
+                    <div class="c1">
+                        <div class="c1a"></div>
+                        <div class="c1b"></div>
+                        <div class="c1a"></div>
+                    </div>
+                    <div class="c1"></div>
+                </div>
+                <div class="a2b"></div>
+
+            </div>
+
+            <div class="a1">
+                <div class="a1b"></div>
+                <div class="a1a"></div>
+            </div>
+        </div>
+
+
+        <div class="col1">
+            <div class="row1">
+                <div class="row1a"></div>
+                <div class="row1b"></div>
+            </div>
+            <div class="row1">
+                <div class="row1b"></div>
+                <div class="row1a"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

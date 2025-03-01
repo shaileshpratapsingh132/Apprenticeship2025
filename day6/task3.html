@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer {
+
+            width: 900px;
+            height: 600px;
+            background-color: aliceblue;
+        }
+
+        .row1 {
+            width: 900px;
+            height: 100px;
+            background: yellow;
+        }
+
+        .row2 {
+            width: 900px;
+            height: 500px;
+            background: yellow;
+        }
+
+        .row2a {
+            width: 100px;
+            height: 500px;
+            background: rgb(72, 0, 255);
+            float: left;
+        }
+
+        .row2a1 {
+            width: 700px;
+            height: 500px;
+            background: rgb(129, 128, 131);
+            float: left;
+        }
+
+        .a1 {
+            width: 700px;
+            height: 200px;
+            background: rgb(8, 204, 5);
+        }
+
+        .b1 {
+            width: 350px;
+            height: 200px;
+            background: rgb(204, 114, 5);
+            float: left;
+        }
+
+        .b2 {
+            width: 350px;
+            height: 200px;
+            background: rgb(189, 183, 176);
+            float: left;
+        }
+
+        .a2 {
+            width: 700px;
+            height: 100px;
+            background: rgb(55, 5, 204);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div class="row1"></div>
+
+        <div class="row2">
+
+            <div class="row2a"></div>
+
+            <div class="row2a1">
+                <div class="a1">
+                    <div class="b1"></div>
+                    <div class="b2"></div>
+                </div>
+                <div class="a1">
+                    <div class="b2"></div>
+                    <div class="b1"></div>
+                </div>
+                <div class="a2"></div>
+            </div>
+
+            <div class="row2a"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer {
+            width: 800px;
+            height: 600px;
+            background-color: bisque;
+        }
+
+        .col1 {
+            width: 50px;
+            height: 600px;
+            background-color: yellow;
+            float: left;
+        }
+
+        .col2 {
+            width: 750px;
+            height: 600px;
+            background-color: black;
+            float: left;
+        }
+
+        .row1 {
+            width: 750px;
+            height: 50px;
+            background-color: blue;
+        }
+
+        .row2 {
+            width: 750px;
+            height: 550px;
+            background-color: rgb(60, 80, 66);
+        }
+
+        .a1 {
+            width: 700px;
+            height: 550px;
+            background-color: rgb(40, 202, 89);
+            float: left;
+        }
+
+        .b1 {
+            width: 700px;
+            height: 50px;
+            background-color: rgb(233, 234, 234);
+        }
+
+        .b2 {
+            width: 700px;
+            height: 450px;
+            background-color: rgb(10, 111, 111);
+        }
+
+        .c1 {
+            width: 100px;
+            height: 450px;
+            background: red;
+            float: left;
+        }
+
+
+        .c2 {
+            width: 500px;
+            height: 450px;
+            background: rgba(255, 0, 221, 0.303);
+            float: left;
+        }
+
+        .d1 {
+            width: 500px;
+            height: 113px;
+            background: rgb(9, 255, 0);
+
+        }
+
+        .d2 {
+            width: 500px;
+            height: 112px;
+            background: rgb(78, 11, 11);
+
+        }
+
+        .e1 {
+            width: 250px;
+            height: 113px;
+            background: rgb(50, 11, 78);
+            float: left;
+        }
+
+        .e2 {
+            width: 250px;
+            height: 113px;
+            background: rgb(166, 149, 149);
+            float: left;
+        }
+
+        .a2 {
+            width: 50px;
+            height: 550px;
+            background-color: rgb(15, 223, 39);
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div class="col1"></div>
+
+        <div class="col2">
+            <div class="row1"></div>
+            <div class="row2">
+                <div class="a1">
+                    <div class="b1"></div>
+                    <div class="b2">
+                        <div class="c1"></div>
+                        <div class="c2">
+                            <div class="d1"></div>
+                            <div class="d2">
+                                <div class="e1"></div>
+                                <div class="e2"></div>
+                            </div>
+                            <div class="d1">
+                                <div class="e2"></div>
+                                <div class="e1"></div>
+                            </div>
+                            <div class="d2"></div>
+                        </div>
+                        <div class="c1"></div>
+                    </div>
+                    <div class="b1"></div>
+                </div>
+                <div class="a2"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

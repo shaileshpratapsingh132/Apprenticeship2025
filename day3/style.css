@@ -1,0 +1,12 @@
+p {
+    color: red;
+    font-size: 20px;
+    text-align: justify;
+    text-transform: lowercase;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    border: 5px solid pink;
+}
