@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>sarkariresult</title>
+    <link rel="icon" href="../image/sarkariresult logo-new.png">
+    <style>
+        #outer {
+            width: 1200px;
+            min-height: 500px;
+            background: white;
+            margin: 0px auto;
+        }
+
+        #top {
+            width: 1200px;
+            height: 200px;
+            background: #ab183d;
+        }
+
+        #top1 {
+            width: 200px;
+            height: 200px;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+
+        }
+
+        #top2 {
+            width: 1000px;
+            height: 120px;
+            float: left;
+            font-size: 30px;
+            margin-top: 40px;
+            text-align: center;
+            color: white;
+            font-family: Arial Black;
+        }
+
+        #top2 h2 {
+            margin: 0px;
+        }
+
+        #menu {
+            height: 70px;
+            width: 1200px;
+            margin: 0px auto;
+            background: black;
+        }
+
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+        }
+
+        #menu ul li {
+            width: 140px;
+            border-left: 1px solid;
+            float: left;
+            color: white;
+            text-align: center;
+            line-height: 70px;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            font-weight: bold;
+        }
+
+        #menu a {
+            text-decoration: none;
+        }
+
+        #center {
+            height: 300px;
+            width: 1200px;
+        }
+
+        #h1 {
+            height: 50px;
+            width: 1200px;
+            background: white;
+            font-size: 22px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 50px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #h2 {
+            height: 50px;
+            width: 1200px;
+            background: white;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 50px;
+            color: red;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .h3 {
+            height: 25px;
+            width: 1200px;
+            background: white;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 50px;
+            color: red;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .h4 {
+            height: 25px;
+            width: 1200px;
+            background: white;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 50px;
+            color: red;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .titlebox {
+            width: 1200px;
+            height: 200px;
+        }
+
+        .titleboxrow1 {
+            width: 1200px;
+            height: 100px;
+        }
+
+        .a1 {
+            width: 294px;
+            height: 94px;
+            margin: 3px;
+            float: left;
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            font-weight: bold;
+            font-size: 29px;
+            line-height: 35px;
+            text-decoration: white;
+        }
+
+        .titleboxrow1 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .title {
+            width: 1200px;
+            height: 1450px;
+            margin-top: 50px;
+        }
+
+        .titlecol {
+            width: 365px;
+            height: 1450px;
+            border: 2px solid #d2691e;
+            box-sizing: border-box;
+            float: left;
+            margin-left: 51px;
+        }
+
+        .titlename {
+            width: 362px;
+            height: 40px;
+            background: #ab183d;
+            text-align: center;
+            line-height: 40px;
+            font-size: 35px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .content {
+            min-height: 500px;
+            width: 362px;
+        }
+
+        .View {
+            text-align: end;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 130px;
+            font-weight: bold;
+            padding-right: 20px;
+        }
+
+        #space2 {
+            width: 1200px;
+            height: 100px;
+        }
+
+        .footer {
+            width: 1200px;
+            height: 500px;
+            border: 2px solid #d2691e;
+        }
+
+        .footertitle {
+            width: 1200px;
+            height: 40px;
+            background: #ab183d;
+            color: white;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 40px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .footertitle1 {
+            width: 1200px;
+            height: 460px;
+            color: black;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        .footercol2 {
+            width: 1200px;
+            height: 40px;
+            background: #ab183d;
+            color: white;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 40px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .footertitle2 {
+            width: 1200px;
+            height: 30px;
+            color: black;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        .footer2 {
+            width: 1200px;
+            height: 250px;
+            border: 2px solid #d2691e;
+        }
+
+        .footer3 {
+            width: 1200px;
+            height: 250px;
+            border: 2px solid #d2691e;
+        }
+
+        .footertitle3 {
+            width: 1200px;
+            color: black;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        .footerbottom {
+            width: 1200px;
+            height: 500px;
+        }
+
+        #row {
+            width: 1200px;
+            height: 40px;
+        }
+
+        .footer10 {
+            width: 100%;
+            min-height: 200px;
+            display: flex;
+            margin-top: 60px;
+            margin-left: 50px;
+        }
+
+        .footers11 {
+            height: 100%;
+            width: 24%;
+            font-size: 14px;
+        }
+
+        .footers11 a {
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        .content1 {
+            line-height: 40px;
+            font-size: 20px;
+        }
+
+        .foot1 {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="top">
+            <div id="top1"><img src="../image/sarkariresult logo-new.png"> </div>
+            <div id="top2">
+                <h2>SARKARI RESULT</h2>
+                <b><a style="font-size: 15px; font-weight: normal;">
+                        WWW.SARKARIRESULT.COM</a></b>
+            </div>
+        </div>
+        <div id="menu">
+            <ul>
+                <a href="#">
+                    <li style="border: 0;">Home</li>
+                </a>
+                <a href="#">
+                    <li>Latest Jobs </li>
+                </a>
+                <a href="#">
+                    <li> Results</li>
+                </a>
+                <a href="#">
+                    <li> Admit Card</li>
+                </a>
+                <a href="#">
+                    <li> Answer Key</li>
+                </a>
+                <a href="#">
+                    <li> Syllabus</li>
+                </a>
+                <a href="#">
+                    <li> Search</li>
+                </a>
+                <a href="#">
+                    <li> Contact Us</li>
+                </a>
+            </ul>
+        </div>
+        <div id="center">
+            <div id="h1"><a href="#"> Sarkari Result : SarkariResult.Com </a> Sarkari Naukri Latest Jobs Online Form at
+                Sarkari Results 2024</br></div>
+            <div id="h2">Welcome to No. 1 Education Portal Sarkari Result 2024</div>
+            <div class="h3"><a href="#">Sarkari Result Android Apps</a>||<a href="#">Sarkari Result Youtube
+                    Channel</a>||<a href="#"> Sarkari Result Apple / IOS Apps</a>||<a href="#"> Follow Instagram</a>||
+            </div>
+            <div class="h4" style="font-size: 15px;">
+                <Marquee onmouseover="stop()" onmouseleave="start()" behavior="alternate" scrollamount="20"><a
+                        href="#">CTET Result July 2024</a> || <a href="#"> IPR RES MTS Online Form 2024 </a> || <a
+                        href="#"> MP CPCT Online Form 2024</a> ||</Marquee>
+            </div>
+            <div class="h4" style="font-size: 15px;">
+                <Marquee onmouseover="stop()" onmouseleave="start()" behavior="alternate" scrollamount="20"><a
+                        href="#">HSSC Primary Teacher Online Form 2024 </a> || <a href="#"> UPBED 2024 Online
+                        Counselling </a> || <a href="#"> UP NEET UG Online Counselling 2024</a> ||</Marquee>
+            </div>
+            <div class="h4" style="font-size: 15px;">
+                <Marquee onmouseover="stop()" onmouseleave="start()" behavior="alternate" scrollamount="10"><a
+                        href="#">UP Police UPP Constable Exam City Details 2024</a> || <a href="#"> JSSC Stenographer
+                        Online Form 2024 </a> || <a href="#"> RRC CR Apprentices Online Form 2024</a> ||</Marquee>
+            </div>
+        </div>
+        <div class="titlebox">
+            <div class="titleboxrow1">
+                <div class="a1" style="background: #868a08;"><a href="#">Uttarakhand TET
+                        Apply Online</a></div>
+                <div class="a1" style="background: #0404b4;"><a href="#">Jharkhand TET
+                        Apply Online</a></div>
+                <div class="a1" style="background: #fb5e03;"><a href="#">UPP Constable
+                        Admit Card 2024</a></div>
+                <div class="a1" style="background: #8c0101;"><a href="#">RRB JE 2024
+                        Apply Online</a></div>
+            </div>
+            <div class="titleboxrow1">
+                <div class="a1" style="background: #fb0303;"><a href="#">MP Sub Engineer
+                        Apply Online</a> </div>
+                <div class="a1" style="background: #0b610b;"><a href="#">UPBED 2024
+                        Online Counselling</a></div>
+                <div class="a1" style="background: #ff00bf;"><a href="#">MP Sub Engineer
+                        Apply Online</a></div>
+                <div class="a1" style="background: #0080ff;"><a href="#">SSC Hindi Translator
+                        Apply Online</a></div>
+            </div>
+        </div>
+        <div class="title">
+            <div class="titlecol" style="margin: 0;">
+                <div class="titlename">Result</div>
+                <div class="content">
+                    <ul>
+                        <li> <a href="#" class="content1">India Post GDS Result / First Merit
+                                List 2024 </a>Updated</li>
+                        <li> <a href="#" class="content1">SSC Junior Engineer JE Paper I
+                                Result with Marks 2024</a></li>
+                        <li> <a href="#" class="content1"">UPSC IES / ISS Result 2024</a></li>
+                        <li> <a href=" #" class="content1">Bihar Police BPSSC Sub Inspector
+                                2023 Marksheet</a></li>
+                        <li> <a href="#" class="content1">UPSC Geo Scientist 2024 Mains
+                                Result</a></li>
+                        <li> <a href="#" class="content1">NTA ICAR AIEEA PG / Phd Entrance
+                                Result with Score Card 2024</a></li>
+                        <li> <a href="#" class="content1">UPSC ESIC Nursing Officer Result
+                                2024</a></li>
+                        <li> <a href="#" class="content1">UPPSC Revised Exam Calendar
+                                2024</a></li>
+                        <li> <a href="#" class="content1">UPSC EPFO AO/EO Final Result
+                                2024</a></li>
+                        <li> <a href="#" class="content1">UP ITI Admissions 2024 First
+                                Allotment Result</a></li>
+                        <li> <a href="#" class="content1">NTA NCET 2024 Result with Score
+                                Card</a></li>
+                        <li> <a href="#" class="content1">UPSSSC Gram Vikas Adhikari VDO 2018
+                                Supplementary Result</a></li>
+                        <li> <a href="#" class="content1">Navy Agniveer SSR / MR 02/2024
+                                Result</a></li>
+                        <li> <a href="#" class="content1">UPSC CMS 2024 Result </a>Name Wise
+                        </li>
+                        <li> <a href="#" class="content1">MPESB ADDET Entrance Exam Result
+                                2024</a></li>
+                        <li> <a href="#" class="content1">SEBI Assistant Manager Phase I
+                                Result 2024</a></li>
+                        <li> <a href="#" class="content1">Oriental Insurance OICL AO Phase I
+                                Result 2024</a></li>
+                        <li> <a href="#" class="content1">UP Police Assistant Operator 2022
+                                Result</a></li>
+                        <li> <a href="#" class="content1">UP Police Workshop Staff 2022
+                                Result</a></li>
+                    </ul>
+                    <div>
+                        <select class="View">
+                            <option value="">View More</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="titlecol">
+                <div class="titlename">Admit Card</div>
+                <div class="content">
+                    <ul>
+                        <li> <a href="#" class="content1">Indian Navy INCET 01/2024 Exam
+                                Date</a></li>
+                        <li> <a href="#" class="content1">UP Police Constable Admit Card
+                                2024</a></li>
+                        <li> <a href="#" class="content1">AFMC Medical Officer Admit Card
+                                2024</a></li>
+                        <li> <a href="#" class="content1">SEBI Assistant Manager Phase II
+                                Admit Card 2024</a></li>
+                        <li> <a href="#" class="content1">NTA UGC NET June 2024 Admit
+                                Card</a></li>
+                        <li> <a href="#" class="content1">Bihar BSEB Sakshamta Pariksha II
+                                Admit Card 2024</a></li>
+                        <li> <a href="#" class="content1">UP Police Constable Exam
+                                Instruction 2024</a></li>
+                        <li> <a href="#" class="content1">BSSC Inter Level Exam Mode Notice
+                                2024</a></li>
+                        <li> <a href="#" class="content1">UPSSSC Instructor 2022 Document
+                                Verification Letter</a></li>
+                        <li> <a href="#" class="content1">UKPSC Sub Inspector PET / PST Admit
+                                Card 2024</a></li>
+                        <li> <a href="#" class="content1">Jharkhand JSSC Graduate Level Re
+                                Exam Date 2024</a></li>
+                        <li> <a href="#" class="content1">NIELIT CCC Admit Card August 2024
+                                Exam</a></li>
+                        <li> <a href="#" class="content1">JSSC Excise Constable PET Admit
+                                Card 2024</a></li>
+                        <li> <a href="#" class="content1">UPSSSC VDO 2018 DV Letter</a></li>
+                        <li> <a href="#" class="content1">RSMSSB Supervisor, Hostel
+                                Superintendent Exam Date 2024</a></li>
+                        <li> <a href="#" class="content1">SSC MTS 2024 Exam Date</a></li>
+                        <li> <a href="#" class="content1">NTA UGC NET Exam City 2024</a></li>
+                        <li> <a href="#" class="content1">Jharkhand High Court Typist Skill
+                                Test Admit Card 2024</a></li>
+                        <li> <a href="#" class="content1">SSC CGL 2024 Tier I Exam Date</a>
+                        </li>
+
+                    </ul>
+                    <div class="View">View More</div>
+                </div>
+            </div>
+            <div class="titlecol">
+                <div class="titlename">Latest Jobs</div>
+                <div class="content">
+                    <ul>
+                        <li> <a href="#" class="content1">Railway RRB Technician CEN 02/2024
+                                Vacancy Increase</a></li>
+                        <li> <a href="#" class="content1">NPCIL Stipendiary Trainee Online
+                                Form 2024</a></li>
+                        <li> <a href="#" class="content1">IRDAI Assistant Manager Online Form
+                                2024</a></li>
+                        <li> <a href="#" class="content1">CISF Constable / Fire Online
+                                Form</a></li>
+                        <li> <a href="#" class="content1">IBPS PO 14th Online Form
+                                2024</a>Extended</li>
+                        <li> <a href="#" class="content1">Jharkhand TET JHTET Online
+                                Form</a>Extended</li>
+                        <li> <a href="#" class="content1">PGCIL Apprentices Online Form
+                                2024</a></li>
+                        <li> <a href="#" class="content1">Nainital Bank PO & Other Post
+                                Online Form 2024</a></li>
+                        <li> <a href="#" class="content1">Supreme Court Junior Court
+                                Attendant Online Form 2024</a></li>
+                        <li> <a href="#" class="content1">Airforce Agniveer Non Combatant
+                                Recruitment 2024</a></li>
+                        <li> <a href="#" class="content1">Railway RRB Paramedical Post Online
+                                Form 2024</a></li>
+                        <li> <a href="#" class="content1">RRC NR Delhi Apprentices Online
+                                Form 2024</a></li>
+                        <li> <a href="#" class="content1">Jharkhand Sachivalaya JSSC
+                                Stenographer Online Form 2024</a></li>
+                        <li> <a href="#" class="content1">Haryana HSSC Primary Teacher PRT
+                                Online Form 2024</a></li>
+                        <li> <a href="#" class="content1">JSSC Intermediate Level Online Form
+                                2024</a></li>
+                        <li> <a href="#" class="content1">Allahabad High Court Research
+                                Officer Online Form 2024</a></li>
+                        <li> <a href="#" class="content1">ITBP Constable Pioneer Online Form
+                                2024</a></li>
+                    </ul>
+                    <div class="View">View More</div>
+                </div>
+            </div>
+        </div>
+        <div id="space2"></div>
+        <div class=" footer">
+            <div class="footertitle">What Kind of Government Jobs Can I Get?</div>
+            <div class="footertitle1">
+                There are a wide variety of government jobs in India. It depends on your interests, but a job in the
+                Indian government can range from policy-making, public administration, military, law, engineering, and
+                even teaching. Some of the more highly-paid and in-demand positions are discussed below to give you a
+                sense of their requirements and salary expectations.
+
+                1. Indian Administrative Services (IAS) and Indian Foreign Services (IFS) Jobs : The role of an IAS
+                officer may include advising the ministers on various policy issues, implementing policies of the
+                government, collecting revenue, and supervising public spending. An IFS officer manages foreign
+                relations in India with more than 160 Indian Diplomatic Missions and International Organizations around
+                the world. The starting monthly salary of an IAS or IFS officer is about INR 56,100.
+
+
+                2. Indian Police Services (IPS) Jobs : A role with the IPS involves safeguarding the public, maintaining
+                law and order, and detecting and preventing crime. The role can be with the various agencies and
+                branches including the Research and Analysis Wing (R&AW), Intelligence Bureau (IB), Central Bureau of
+                Investigation (CBI), and Criminal Investigation Department (CID). To be eligible for a job with IPS,
+                there are additional requirements, including physical standards. Physical eligibility includes minimum
+                height for men and women, minimum chest girth for men and women, restriction on vision impairments
+                including myopia limited to less than -4.00, and hyper myopia not exceeding +4.00. According to
+                Payscale, an entry-level police constable with less than 1-year experience can earn an average total
+                compensation of INR 255,094. This includes tips, bonuses, and overtime pay.
+
+                3. Banking Jobs :The banking sector is one of the fastest-growing sectors in India. It's not surprising
+                that jobs in government-approved banks such as the State Bank of India (SBI), Allahabad Bank, HDFC, and
+                ICICI are highly sought after. A job in the banking sector could either be a clerical position such as
+                typists, data entry operators, cashiers, or clerks or a probationary officer (PO) role. As a PO, the
+                candidate will be under probation during the training period and will be hired following the probation
+                based on performance. During the training period, the candidate will be trained in accounting, finance,
+                billing, investment, and revenue collection. A PO role allows opportunities for career growth to middle
+                and senior management based on performance and additional examinations. The starting monthly salary of a
+                PO is about INR 57,000 including allowances.
+
+
+                4. Defence Jobs : Jobs with the National Defence Academy (NDA) can be in various departments, such as
+                Army, Navy, Air Force, Coast Guard, etc. A job in the NDA comes with strict restrictions on age,
+                physical, and vision standards. Cadet trainees receive a stipend of INR 56,100 per month. Allowances and
+                promotions will increase this salary. There are also several agricultural, engineering, and research
+                jobs with their own set of rules and requirements. These can get very complicated, but Sarkari Result
+                does all the work for you and lists the various jobs ranging from a Rajasthani police constable to
+                Allahabad High Court Review Officer. Each job posting contains all the details you would need to be able
+                to apply for the position with ease.
+            </div>
+        </div>
+        <div class=" footer2">
+            <div class="footercol2">Sarkari Result : Resources to Help Indians Get Government Jobs (Sarkari Job)</div>
+            <div class="footertitle2">
+                The future is uncertain, but a government job, Sarkari Jobs can help you secure your future. Click for
+                valuable resources and help from Sarkari Result.
+
+                Did you know that over 1.5 million people lost their jobs in August 2021 in rural and urban India? Yes,
+                the COVID-19 pandemic has hit the job market hard. Small businesses and multinationals alike have had to
+                reconsider their staffing requirements.
+
+
+                Are you an unemployed Indian citizen because of the pandemic and fluctuating job market?
+
+
+                Are you working for a multinational company going through restructuring and considering your next steps?
+
+                Are you a recent graduate looking to find your first job?
+
+                Are you wondering if a government job is right for you?
+
+                You've come to the right place! At Sarkari Result, we will show you the benefits of an Indian government
+                job and help you to find a government job that's stable, long-term, and right for you!
+            </div>
+        </div>
+        <div class=" footer3">
+            <div class="footercol2">Why Should I Consider a Government Job?</div>
+            <div class="footertitle3">In India, a Sarkari Naukri (or an Indian government job) is highly sought-after.
+                It's the ultimate career goal, offering long-term security, good benefits, and friendly co-workers.
+
+                More than that, an Indian government job offers an opportunity to live a life of purpose.
+
+                It's a way for you to give back to your community.
+
+                According to the Centre for Monitoring Indian Economy Pvt. Ltd. (CMIE), the unemployment rate in India
+                increased from 6.5% in November 2020 to 7.75% in October 2021. In this fluctuating market, there has
+                been an increase in the demand for the stability and permanence offered by a Sarkari Naukri.
+
+                In addition, government jobs in India can be pretty lucrative offering competitive salaries, benefits,
+                and pensions. Some of the highest-paid jobs in the Indian government include the Indian Administrative
+                Services (IAS), Indian Foreign Services (IFS), and Indian Police Services (IPS).
+
+
+                Keep in mind that these jobs are also highly competitive with a complex application process!</div>
+        </div>
+        <div style="text-align: center; border-bottom: 2px solid #eceded;border-top: 2px solid #eceded;">This site uses
+            Google AdSense ad intent links. AdSense automatically generates these links and they may help creators earn
+            money.</div>
+        <div class="footer10">
+            <div class="footers11">
+                <h3 style="color: black;">Quick Links</h3>
+                <a href="#" class="foot1">Sarkari Result @X</a><br><br>
+                <a href="#" class="foot1">Sarkari Result @Telegram</a><br><br>
+                <a href="#" class="foot1">Sarkari Result @WhatsApp</a><br><br>
+                <a href="#" class="foot1">Sarkari Result @Instagram</a><br><br>
+                <a href="#" class="foot1">Sarkari Result @Thread</a><br><br>
+                <a href="#" class="foot1">Sarkari Result @Facebook</a><br><br>
+                <a href="#" class="foot1">Sarkari Result @LinkedIn</a><br><br>
+                <a href="#" class="foot1">Sarkari Result @YouTube</a><br><br>
+                <a href="#" class="foot1">All Board Exams</a><br><br>
+                <a href="#" class="foot1">Sarkari Result Contact Us</a><br><br>
+                <a href="#" class="foot1">Privacy Policy</a><br><br>
+            </div>
+            <div class="footers11">
+                <h3 style="color: black;">Apps</h3>
+                <a href="#" class="foot1">Android App</a><br><br>
+                <a href="#" class="foot1">Apple IOS App</a><br><br>
+            </div>
+            <div class="footers11">
+                <h3 style="color: black;">More</h3>
+                <a href="#" class="foot1">BPSC</a><br><br>
+                <a href="#" class="foot1">UP-scholorship</a><br><br>
+                <a href="#" class="foot1">UPSC</a><br><br>
+                <a href="#" class="foot1">RPSC</a><br><br>
+                <a href="#" class="foot1">UPPCS</a><br><br>
+                <a href="#" class="foot1">Coast Gaurd</a><br><br>
+            </div>
+            <div class="footers11" style="margin-top: 40px;">
+                <a href="#" class="foot1">UPPSSSC</a><br><br>
+                <a href="#" class="foot1">IBPS</a><br><br>
+                <a href="#" class="foot1">Air Force</a><br><br>
+                <a href="#" class="foot1">Delhi Dccb</a><br><br>
+                <a href="#" class="foot1">HSSC</a><br><br>
+                <a href="#" class="foot1">Police Vacancy</a><br><br>
+            </div>
+            <div class="footers11" style="margin-top: 40px;">
+                <a href="#" class="foot1">CCC</a><br><br>
+                <a href="#" class="foot1">SSC</a><br><br>
+                <a href="#" class="foot1">Navy</a><br><br>
+                <a href="#" class="foot1">Railway</a><br><br>
+                <a href="#" class="foot1">TET</a><br><br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

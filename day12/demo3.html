@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: url(../image/Mountain.webp) no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            width: 700px;
+            height: 600px;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            animation-name: abc;
+
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        .i1 {
+            width: 60px;
+            height: 60px;
+            left: 50px;
+            animation-duration: 2s;
+
+        }
+
+        .i2 {
+            width: 80px;
+            height: 80px;
+            left: 100px;
+            animation-duration: 1s;
+
+        }
+
+        .i3 {
+            width: 50px;
+            height: 50px;
+            left: 140px;
+            animation-duration: 2.3s;
+
+        }
+
+        .i4 {
+            width: 100px;
+            height: 100px;
+            left: 190px;
+            animation-duration: 1.4s;
+
+        }
+
+        .i5 {
+            width: 100px;
+            height: 100px;
+            left: 260px;
+            animation-duration: 2.1s;
+        }
+
+        .i6 {
+            width: 70px;
+            height: 70px;
+            left: 350px;
+            animation-duration: 2.6s;
+
+        }
+
+        .i7 {
+            width: 70px;
+            height: 70px;
+            left: 400px;
+            animation-duration: 1.4s;
+        }
+
+        .i8 {
+            width: 70px;
+            height: 70px;
+            left: 470px;
+            animation-duration: 1.8s;
+
+        }
+
+        @keyframes abc {
+            from {
+                top: 0%;
+            }
+
+            to {
+                top: 100%;
+            }
+        }
+
+        .for {
+            width: 400px;
+            height: 400px;
+            background: rgba(255, 255, 255, .8);
+            margin: 100px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="../image/bubble_1-removebg-preview.png" class="i1">
+    <img src="../image/soap-bubble-.png" class="i2">
+    <img src="../image/bubble_1-removebg-preview.png" class="i3">
+    <img src="../image/soap-bubble-.png" class="i4">
+    <img src="../image/bubble_1-removebg-preview.png" class="i5">
+    <img src="../image/soap-bubble-.png" class="i6">
+    <img src="../image/bubble_1-removebg-preview.png" class="i7">
+    <img src="../image/soap-bubble-.png" class="i8">
+    <div class="for">
+        <form action="">
+            Username <br>
+            <input type="text" placeholder="Username.."> <br>
+            Password <br>
+            <input type="password" placeholder="Password.."> <br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+</body>
+
+</html>

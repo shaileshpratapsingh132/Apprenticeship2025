@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .outer {
+            width: 100%;
+            min-height: 900px;
+            background: #aeaeaesmoke;
+        }
+
+        .header {
+            width: 100%;
+            height: 700px;
+            animation: abc 6s infinite;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+
+        @keyframes abc {
+            0% {
+                background: url(../image/pexels-duren-williams-29414623-18874705.jpg);
+                background-repeat: no-repeat;
+
+
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            50% {
+                background: url(../image/Glowing\ Blue\ Butterflies.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+
+            }
+
+            100% {
+                background: url(../image/man1.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+
+            }
+        }
+
+        .menu {
+            width: 100%;
+            height: 80px;
+
+
+        }
+
+        .logo {
+            width: 40%;
+            height: 80px;
+            padding-left: 30px;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .nav {
+            width: 60%;
+            height: 80px;
+
+            float: left;
+            color: #aeaeae;
+
+        }
+
+        li {
+            float: left;
+            text-align: center;
+            margin: 10px;
+            padding-left: 15px;
+            box-sizing: border-box;
+            transition: all 1s;
+        }
+
+        li:hover {
+            color: #ff9933;
+        }
+
+        .a {
+            height: 400px;
+            width: 350px;
+
+            margin: 150px auto;
+        }
+
+        .img {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin-left: 60px;
+
+        }
+
+        h2 {
+            color: #ff9933;
+            text-align: center;
+
+            font-weight: bold;
+        }
+
+        p {
+            color: #aeaeae;
+            text-align: center;
+
+        }
+
+        .btn1 {
+            width: 150px;
+            height: 45px;
+            margin-left: 90px;
+            margin-top: 30px;
+            color: #cacaca;
+            text-align: center;
+            transform: none;
+            border-radius: 5px;
+            border: 2px solid #aeaeae;
+            background: none;
+            transition: 2s;
+            backdrop-filter: blur(10px);
+
+
+            &:hover {
+                border: 2px solid #ff9933;
+            }
+        }
+
+        .about {
+            width: 100%;
+            min-height: 700px;
+            padding: 40px 80px;
+            box-sizing: border-box;
+
+        }
+
+
+
+        h1 {
+            text-align: center;
+            color: #ff9933;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .b {
+            width: 30%;
+            height: 550px;
+
+            float: left;
+        }
+
+        .b1 {
+            width: 70%;
+            height: 550px;
+
+            padding: 10px 40px;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .tex {
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .p1 {
+            color: black;
+            text-align: justify;
+        }
+
+        .info {
+            width: 500px;
+            height: 400px;
+
+        }
+
+        .name {
+            width: 500px;
+            height: 40px;
+
+        }
+
+        .a1 {
+            width: 150px;
+            height: 40px;
+            padding-top: 5px;
+            font-weight: bold;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .a2 {
+            width: 300px;
+            height: 40px;
+            padding-top: 5px;
+            box-sizing: border-box;
+
+            float: left;
+        }
+
+        .btn2 {
+            width: 160px;
+            height: 45px;
+            background: #ff9933;
+            display: block;
+            float: left;
+            text-align: center;
+            line-height: 45px;
+            text-decoration: none;
+            color: wheat;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 20px;
+
+        }
+
+        .btn3 {
+            width: 160px;
+            height: 45px;
+            border: 1px solid #ff9933;
+            display: block;
+            float: left;
+            text-align: center;
+            line-height: 45px;
+            text-decoration: none;
+            color: #ff9933;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .footer {
+            width: 100%;
+            height: 300px;
+            background: rgb(238, 228, 230);
+        }
+
+        .skill {
+            width: 30%;
+            height: 300px;
+            padding: 60px 50px;
+            box-sizing: border-box;
+
+            float: left;
+        }
+
+        .skill div {
+            font-size: 30px;
+            font-family: Arial;
+            font-weight: bold;
+
+        }
+
+        .m {
+            text-align: justify;
+            color: black;
+        }
+
+        .rang {
+            width: 70%;
+            height: 300px;
+            padding: 60px 30px;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .r1 {
+            width: 90%;
+            height: 40px;
+
+        }
+
+        .r2 {
+            width: 100%;
+            height: 35px;
+
+        }
+
+        .ra1 {
+            width: 80%;
+            height: 35px;
+            line-height: 40PX;
+
+            float: left;
+        }
+
+        .ra2 {
+            width: 20%;
+            height: 35px;
+            line-height: 40PX;
+            text-align: right;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .r3 {
+            width: 100%;
+            height: 5px;
+
+        }
+
+        .rb1 {
+            width: 95%;
+            height: 5px;
+            background: #ff9933;
+            float: left;
+        }
+
+        .rb2 {
+            width: 5%;
+            height: 5px;
+            float: left;
+            background: #cacaca;
+        }
+
+        .ufooter {
+            width: 100%;
+            height: 500px;
+            background: #2a2d2f;
+
+
+        }
+
+        .row {
+            width: 30%;
+            height: 450px;
+
+            padding: 30px;
+            box-sizing: border-box;
+            margin: 20px;
+            float: left;
+        }
+
+        .rowa1 {
+            width: 80%;
+            height: 100px;
+            margin: 10px;
+            color: #cacaca;
+        }
+
+        .ufooter .row .rowa1 img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .ufooter .row .rowa1 i {
+
+            padding-left: 30px;
+            box-sizing: border-box;
+
+        }
+
+        .heading {
+            color: white;
+            font-size: 35px;
+            text-align: justify;
+            font-weight: bold;
+        }
+
+        .par {
+            color: #cacaca;
+            text-align: justify;
+            font-weight: 800;
+            transition: all 1s;
+        }
+
+        .par:hover {
+            color: #ff9933;
+
+        }
+
+
+        .bfooter {
+            width: 100%;
+            height: 50px;
+            background: #222222;
+            color: #aeaeae;
+            text-align: center;
+            line-height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="header">
+
+            <div class="menu">
+                <div class="logo">
+                    <img src="../image/shaileh_logo-removebg-preview.png" height="80px">
+                </div>
+                <div class="nav">
+                    <ul type="none">
+                        <li>HOME</li>
+                        <li>ABOUT</li>
+                        <li>SERVICES</li>
+                        <li>PORTFOLIO</li>
+                        <li>CLIENTS</li>
+                        <li>BLOG</li>
+                        <li>CONTACT</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="a">
+                <div class="img">
+                    <img src="../image/shailesh .jpg" alt="" class="img">
+                </div>
+                <h2>SHAILESH PRATAP SINGH</h2>
+                <p>I'M A WEBDEVLOPAR</p>
+                <button class="btn1">LEARN MORE</button>
+            </div>
+        </div>
+
+        <div class="about">
+            <h1>AB<u>OUT</u> ME</h1>
+            <div class="b"> <img src="../image/shailesh .jpg" height="550px" width="100%"></div>
+            <div class="b1">
+                <div class="tex">Hello, I'm Shailesh</div>
+                <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis atque ipsam consequatur
+                    inventore
+                    porro esse nihil laborum illum repudiandae assumenda natus, nam quia quo dolore, vero sint nobis
+                    consequuntur nostrum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis atque ipsam
+                    consequatur inventore
+                    porro esse nihil laborum illum repudiandae assumenda natus, nam quia quo dolore, vero sint nobis
+                    consequuntur nostrum</p>
+                <div class="info">
+                    <div class="name">
+                        <div class="a1">Name:</div>
+                        <div class="a2">Shailesh Pratap singh</div>
+                    </div>
+                    <div class="name">
+                        <div class="a1">Address:</div>
+                        <div class="a2"> Gkp</div>
+                    </div>
+                    <div class="name">
+                        <div class="a1">Age:</div>
+                        <div class="a2">20 years</div>
+                    </div>
+                    <div class="name">
+                        <div class="a1">Phone:</div>
+                        <div class="a2">+91 8115417704</div>
+                    </div>
+                    <div class="name">
+                        <div class="a1">Email:</div>
+                        <div class="a2">spsingh8115417704@gmail.com</div>
+                    </div>
+                    <div class="name">
+                        <div class="a1">Website:</div>
+                        <div class="a2">www.mydomain.com</div>
+                    </div>
+                    <a href="" class="btn2">DOWNLOAD CV</a>
+                    <a href="" class="btn3">SEND A MESSAGE</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="skill">
+                <div>My skills</div>
+                <p class="m">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium!
+                    Dignissimos, quis.
+                    Obcaecati voluptate in quisquam expedita dolor, libero perferendis sapiente pariatur, quaerat
+                    doloribus asperiores similique maxime est quis animi laborum ratione! Dignissimos velit vitae, at
+                    ipsa eius quos perspiciatis!</p>
+            </div>
+            <div class="rang">
+                <div class="r1">
+                    <div class="r2">
+                        <div class="ra1">HTML</div>
+                        <div class="ra2">95%</div>
+                    </div>
+                    <div class="r3">
+                        <div class="rb1"></div>
+                        <div class="rb2"></div>
+                    </div>
+                </div>
+                <div class="r1">
+                    <div class="r2">
+                        <div class="ra1">CSS</div>
+                        <div class="ra2">85%</div>
+                    </div>
+                    <div class="r3">
+                        <div class="rb1" style="width: 85%; height: 5px; background:  #ff9933"></div>
+                        <div class="rb2" style="width: 15%; height: 5px; background: #cacaca"></div>
+                    </div>
+                </div>
+                <div class="r1">
+                    <div class="r2">
+                        <div class="ra1">JavaScript</div>
+                        <div class="ra2">70%</div>
+                    </div>
+                    <div class="r3">
+                        <div class="rb1" style="width: 70%; height: 5px; background:  #ff9933"></div>
+                        <div class="rb2" style="width: 30%; height: 5px; background:  #cacaca"></div>
+                    </div>
+                </div>
+                <div class="r1">
+                    <div class="r2">
+                        <div class="ra1">Wordpress</div>
+                        <div class="ra2">90%</div>
+                    </div>
+                    <div class="r3">
+                        <div class="rb1" style="width: 90%; height: 5px; background:  #ff9933"></div>
+                        <div class="rb2" style="width: 10%; height: 5px; background:  #cacaca"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ufooter">
+            <div class="row">
+                <div class="rowa1">
+                    <img src="../image/footer1.png" alt="">
+                </div>
+                <div class="rowa1">
+                    <img src="../image/footer2.png" alt="">
+                </div>
+                <div class="rowa1">
+                    <img src="../image/footer Playstore.png" alt="">
+                </div>
+                <div class="rowa1">
+                    <div style="font-size: 20px; font-weight: bold;">Stay Connected</div> <br>
+                    <i class="fa-brands fa-facebook fa-beat-fade"></i>
+                    <i class="fa-brands fa-twitter fa-beat-fade"></i>
+                    <i class="fa-brands fa-instagram fa-beat-fade"></i>
+                    <i class="fa-brands fa-whatsapp fa-beat-fade"></i>
+                    <i class="fa-brands fa-youtube fa-beat-fade"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="heading">Useful Links</div>
+                <p class="par">&gt; Home</p>
+                <p class="par"> &gt; About Us</p>
+                <p class="par"> &gt; Placement</p>
+                <p class="par"> &gt; Contact Us</p>
+                <p class="par"> &gt; Our Team</p>
+                <p class="par"> &gt; Terms&Conditions</p>
+                <p class="par"> &gt; Online Registartion</p>
+                <p class="par"> &gt; Our Courses</p>
+                <p class="par"> &gt; Feedback</p>
+                <p class="par"> &gt; Privacy and Policy</p>
+            </div>
+            <div class="row">
+                <div class="heading">Contact Address</div>
+                <p class="par"><i class="fa-solid fa-house"></i> &nbsp; &nbsp; Plot No-43, Behind H.P
+                    Petrol Pump,
+                    Tedhi Pulia Ring Rd, Sector 5,
+                    Vikas Nagar, Lucknow,
+                    Uttar Pradesh 226022</p>
+                <p class="par"> <i class="fa-solid fa-phone"> &nbsp; &nbsp;</i> +91-7007237006</p>
+                <p class="par"> <i class="fa-solid fa-phone"></i> &nbsp; &nbsp;+91-9140444301</p>
+                <p class="par"><i class="fa-solid fa-envelope"></i> &nbsp; &nbsp;spsingh8115417704@gmail.com</p>
+            </div>
+
+        </div>
+        <div class="bfooter">
+            Ⓒ 2024 <i style="color: #ff9933;">Techpile Technology 2024</i> | Developed By <i
+                style="color: #ff9933;">Techpile-Technical Cell</i>
+        </div>
+    </div>
+</body>
+
+</html>

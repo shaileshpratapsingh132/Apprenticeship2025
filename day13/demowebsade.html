@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer {
+            min-height: 800px;
+            width: 1200px;
+            border: 1px solid black;
+            margin: 0px auto;
+
+        }
+
+        .slider {
+            height: 600px;
+            width: 1200px;
+            background: url(../image/Mountain.webp);
+            background-size: cover;
+
+            animation: abc 6s infinite;
+        }
+
+        .slider1 {
+            height: 700px;
+            width: 1200px;
+
+            background: rgba(0, 0, 0, .6);
+
+        }
+
+        .slider:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes abc {
+            0% {
+                background: url(../image/man1.webp);
+                background-size: cover;
+            }
+
+            50% {
+                background: url(../image/Black\ Metal\ Framed\ Light\ Sconce.webp);
+                background-size: cover;
+            }
+
+            100% {
+                background: url(../image/working\ 1.webp);
+                background-size: cover;
+            }
+        }
+
+        .top {
+            height: 50px;
+            width: 600px;
+        }
+
+        .logo {
+            height: 50px;
+            width: 600px;
+        }
+
+        .menu {
+            height: 50px;
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="outer">
+        <div class="slider"></div>
+        <div class="slider1">
+            <div class="top">
+                <div class="logo"></div>
+                <div class="menu">
+                    <ul>
+                        <a href="">
+                            <li>Home</li>
+                        </a>
+                        <li>About Us</li>
+                        <li>Resister</li>
+                        <li>Contact</li>
+                        <li>Login</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="about"></div>
+        <div class="ufooter"></div>
+        <div class="bfooter"></div>
+    </div>
+</body>
+
+</html>
